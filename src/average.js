@@ -20,7 +20,7 @@ const average = (array) => {
   for (let index = 0; index < array.length; index += 1) {
     total += array[index];
   }
-  if (typeof total !== "number") {
+  if (typeof total !== 'number') {
     return undefined;
   }
   let media = total / array.length;
